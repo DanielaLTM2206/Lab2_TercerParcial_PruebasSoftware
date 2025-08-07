@@ -8,8 +8,8 @@ app.get('/', (req, res) => {
 });
 
 //desplegar el servidor
-app.listen(PORT, () => {
-    console.log(`Servidor levantado en el puerto ${PORT}`);
+app.listen(port, () => {
+    console.log(`Servidor ejecutandose en el puerto ${port}`);
 });
 
 
