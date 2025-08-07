@@ -1,7 +1,7 @@
 export default [
     {
         files: ['**/*.js'],
-        languages:{
+        languageOptions: {
             ecmaVersion: 'latest',
             sourceType: 'module',
         },
