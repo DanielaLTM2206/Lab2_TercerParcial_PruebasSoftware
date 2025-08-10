@@ -1,4 +1,6 @@
-#para un proyecto en Node.js, necesitamos ignorar ciertos archivos y carpetas que no son necesarios para el control de versiones. 
+#para un proyecto en Node.js, necesitamos ignorar ciertos 
+#archivos y carpetas que no son necesarios para el control 
+#de versiones.
 
 node_modules/
 .env
