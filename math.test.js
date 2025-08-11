@@ -22,8 +22,8 @@ describe('fibonacci', () => {
     test('fibonacci de 1 es 1', () => {
         expect(fibonacci(1)).toBe(1);
     });
-    test('fibonacci de 6 es 10 (fallo intencional)', () => {
-        expect(fibonacci(6)).toBe(10);
+    test('fibonacci de 6 es 8', () => {
+        expect(fibonacci(6)).toBe(8);
     });
     test('fibonacci de número negativo es undefined', () => {
         expect(fibonacci(-2)).toBeUndefined();
